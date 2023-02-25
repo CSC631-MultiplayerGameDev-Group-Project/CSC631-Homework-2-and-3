@@ -1,3 +1,7 @@
+/// <summary>
+/// This script allows objects that possess this script to change to a random
+/// color upon colliding with another object.
+/// </summary>
 using UnityEngine;
 
 public class ChangeColorOnCollision : MonoBehaviour {
