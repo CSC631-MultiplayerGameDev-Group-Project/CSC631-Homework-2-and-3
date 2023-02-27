@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657815, g: 0.49641192, b: 0.57481617, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -245,7 +245,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 367109857}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16bb8d701387d492d90a761835bd546f, type: 3}
+  m_Script: {fileID: 11500000, guid: bbcb0d00e7b68d741a6f03b0014acf56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!54 &367109859
@@ -282,7 +282,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 367109857}
-  m_Material: {fileID: 13400000, guid: c982d4e6bcd7e49fa851b89d3b404fe1, type: 2}
+  m_Material: {fileID: 13400000, guid: 7eeb1e304a220634c908d632a9beebe7, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -884,7 +884,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1790491138}
-  m_Material: {fileID: 13400000, guid: ebb3ba48af6f04381a4ca71fb1cc20f1, type: 2}
+  m_Material: {fileID: 13400000, guid: 696271172dde2f045a02e1719ea005c4, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -999,6 +999,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1790491138}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 16bb8d701387d492d90a761835bd546f, type: 3}
+  m_Script: {fileID: 11500000, guid: bbcb0d00e7b68d741a6f03b0014acf56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
