@@ -245,7 +245,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 367109857}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a3e6460cd164484ba212f9a6dfc52cf, type: 3}
+  m_Script: {fileID: 11500000, guid: bbcb0d00e7b68d741a6f03b0014acf56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!54 &367109859
@@ -282,7 +282,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 367109857}
-  m_Material: {fileID: 13400000, guid: 763c186f1056ee246b360c04be5c17c2, type: 2}
+  m_Material: {fileID: 13400000, guid: 7eeb1e304a220634c908d632a9beebe7, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -884,7 +884,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1790491138}
-  m_Material: {fileID: 13400000, guid: 80a3d69a229fbef4aaca9213c99eceec, type: 2}
+  m_Material: {fileID: 13400000, guid: 696271172dde2f045a02e1719ea005c4, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -999,6 +999,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 1790491138}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a3e6460cd164484ba212f9a6dfc52cf, type: 3}
+  m_Script: {fileID: 11500000, guid: bbcb0d00e7b68d741a6f03b0014acf56, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
