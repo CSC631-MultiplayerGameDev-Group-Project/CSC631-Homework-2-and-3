@@ -589,7 +589,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1197826379}
   serializedVersion: 4
-  m_Mass: 1
+  m_Mass: 0.5
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -636,7 +636,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1620633972}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.53}
+  m_LocalPosition: {x: 0, y: 0, z: 0.588}
   m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -793,7 +793,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -2216924939064246913, guid: c43c93f997cdd0145992107d4378f7d6, type: 3}
       propertyPath: speed
-      value: 50
+      value: 500
       objectReference: {fileID: 0}
     - target: {fileID: -2216924939064246913, guid: c43c93f997cdd0145992107d4378f7d6, type: 3}
       propertyPath: firRate

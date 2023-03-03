@@ -6,9 +6,7 @@ public class ProjectileMove : MonoBehaviour
 {
     // Start is called before the first frame update
     public float speed;
-    public float firRate;
-    
-
+    public float firRate; 
     // Update is called once per frame
     void Update()
     {
@@ -17,12 +15,17 @@ public class ProjectileMove : MonoBehaviour
         }else{
             Debug.Log("no Speed!");
         }
+        destroyBulletOvertime();
     }
 
     private void OnCollisionEnter(Collision other) { 
         speed = 0;
 
         Destroy(gameObject);
+    }
+
+    private void destroyBulletOvertime(){
+         Destroy(gameObject,5);
     }
 }
 

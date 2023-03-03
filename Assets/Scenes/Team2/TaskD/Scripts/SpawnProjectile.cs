@@ -9,7 +9,7 @@ public class SpawnProjectile : MonoBehaviour
     public List<GameObject> vfx = new List<GameObject> ();
     public RotateToMouse rotateToMouse;
     private GameObject effectToSpawn;
-    private float timeToFire = 0;
+    
     void Start()
     {
         effectToSpawn = vfx[0];
@@ -18,8 +18,8 @@ public class SpawnProjectile : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButton (0) && Time.time >= timeToFire){
-            timeToFire = Time.time + 1 / effectToSpawn.GetComponent<ProjectileMove>().firRate;
+        if(Input.GetMouseButtonDown (0)){
+            
             SpawnVFX();
         }
     }
