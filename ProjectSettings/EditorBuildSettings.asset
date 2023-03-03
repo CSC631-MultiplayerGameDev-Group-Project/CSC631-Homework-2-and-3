@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Team2/TaskE/t2-task-Second.unity
+    guid: 62c6acc585dcc46d581b8983db70546f
+  - enabled: 1
+    path: Assets/Scenes/Team2/TaskE/t2-task-Initial.unity
+    guid: 99d5f88cc77a1754a903a0c3e558a5d6
   m_configObjects: {}
