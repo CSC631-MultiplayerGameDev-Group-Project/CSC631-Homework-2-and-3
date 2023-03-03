@@ -17,6 +17,6 @@ public class PauseSceneController : MonoBehaviour
     }
     // Tells button what to do when it is clicked
     public void ClickStart() {
-        SceneManager.LoadScene("t1-task-Initial");
+        SceneManager.LoadScene("t2-task-Initial");
     }
 }
