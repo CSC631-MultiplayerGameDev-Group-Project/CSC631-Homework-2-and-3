@@ -886,7 +886,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7563003024552718655, guid: deca33580d6582841a38f3a88e063654, type: 3}
       propertyPath: m_Name
-      value: Projectile
+      value: TestProjectile
       objectReference: {fileID: 0}
     - target: {fileID: 7563003024552718655, guid: deca33580d6582841a38f3a88e063654, type: 3}
       propertyPath: m_IsActive
