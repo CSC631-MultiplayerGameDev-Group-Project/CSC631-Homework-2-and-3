@@ -294,13 +294,13 @@ InputManager:
     axis: 0
     joyNum: 0
   - serializedVersion: 3
-    m_Name: CameraBehind
+    m_Name: CameraAbove
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
     positiveButton: 1
     altNegativeButton: 
-    altPositiveButton: 
+    altPositiveButton: 0
     gravity: 1000
     dead: 0.001
     sensitivity: 1000
@@ -310,7 +310,7 @@ InputManager:
     axis: 0
     joyNum: 0
   - serializedVersion: 3
-    m_Name: CameraAbove
+    m_Name: CameraBehind
     descriptiveName: 
     descriptiveNegativeName: 
     negativeButton: 
