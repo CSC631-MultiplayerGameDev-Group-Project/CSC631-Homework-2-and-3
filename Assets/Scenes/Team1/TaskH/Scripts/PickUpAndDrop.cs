@@ -35,7 +35,7 @@ public class PickUpAndDrop : MonoBehaviour
         Player = character.transform;
         // get's the 1st child of character gameObject and gets transform
         PickUpPoint = character.transform.GetChild(0).gameObject.transform;
-        Debug.Log("name of Player is " + Player.name + "name of PickUpPoint is " + PickUpPoint.name);
+        //Debug.Log("name of Player is " + Player.name + "name of PickUpPoint is " + PickUpPoint.name);
 
     }
 
@@ -56,7 +56,7 @@ public class PickUpAndDrop : MonoBehaviour
                 collision.enabled = false; // collider for gameObjects getting picked up
                 this.transform.position = PickUpPoint.position;
                 this.transform.parent = PickUpPoint;
-                Debug.Log("transform position is now " + this.transform.position + " and the parent is now " + this.transform.parent);
+                //Debug.Log("transform position is now " + this.transform.position + " and the parent is now " + this.transform.parent);
                 itemIsPickedUp = true;
             }
         }
