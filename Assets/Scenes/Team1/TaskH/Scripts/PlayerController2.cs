@@ -8,12 +8,15 @@ public class PlayerController2 : MonoBehaviour
     PlayerControls controls;
     Vector2 move;
     public float speed = 10;
+    private Rigidbody rb;
 
     // Awake() is called before Start() method
     void Awake()
     {
         controls = new PlayerControls();
         controls.Player.Move.performed += context => move = context.ReadValue<Vector2>();
+        rb = GetComponent<Rigidbody>();
+        rb.constraints = RigidbodyConstraints.FreezeRotation;
         controls.Player.Move.canceled += ctx => move = Vector2.zero;
     }
 
