@@ -16,7 +16,7 @@ public class PlayerController2 : MonoBehaviour
         controls = new PlayerControls();
         controls.Player.Move.performed += context => move = context.ReadValue<Vector2>();
         rb = GetComponent<Rigidbody>();
-        rb.constraints = RigidbodyConstraints.FreezeRotationY;
+        rb.constraints = RigidbodyConstraints.FreezeRotation;
         controls.Player.Move.canceled += ctx => move = Vector2.zero;
     }
 
