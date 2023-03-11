@@ -9,7 +9,7 @@ public class ParticleBurst : MonoBehaviour
     private void OnTriggerEnter(Collider other) {
         if(other.gameObject.CompareTag("Player") && once) {
             var em = collisionParticleSystem.emission;
-            var dur = collisionParticleSystem.duration;
+            var dur = collisionParticleSystem.main.duration;
 
             em.enabled = true;
             collisionParticleSystem.Play();

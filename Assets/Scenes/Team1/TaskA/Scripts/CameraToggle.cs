@@ -6,6 +6,7 @@ public class CameraToggle : MonoBehaviour
 {
     public GameObject cameraBehind;
     public GameObject cameraAbove;
+    public GameObject mainCamera;
 
     // Update is called once per frame
     void Update()
@@ -18,6 +19,12 @@ public class CameraToggle : MonoBehaviour
         if (Input.GetButtonDown("CameraAbove"))
         {
             cameraAbove.SetActive(true);
+            cameraBehind.SetActive(false);
+        }
+        if (Input.GetButtonDown("CameraDefault"))
+        {
+            mainCamera.SetActive(true);
+            cameraAbove.SetActive(false);
             cameraBehind.SetActive(false);
         }
     }

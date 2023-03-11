@@ -5,11 +5,17 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Team1/TaskE/t1-task-Initial.unity
     guid: e7a3930f91237de419c2611f1eb0ddba
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Team1/TaskE/Scene2.unity
     guid: 5d132cabda429e94f9bc3f7191ec7a33
+  - enabled: 0
+    path: Assets/Scenes/Team1/CombinedScene/CombinedScenes.unity
+    guid: 12c6c889971d4fe42ac81813ff305885
+  - enabled: 1
+    path: Assets/Scenes/Team1/TaskH/t1h.unity
+    guid: 1fe38327790b03e4f9f80693c922240a
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: 5b61baad6f447de41910476f8479f967, type: 2}
