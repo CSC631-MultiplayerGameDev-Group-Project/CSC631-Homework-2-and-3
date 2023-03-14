@@ -38,8 +38,8 @@ public class PlayerController2 : MonoBehaviour
     void FixedUpdate()
     {
         Vector3 movement = new Vector3(move.x, 0.0f, move.y) * speed * Time.deltaTime;
-        //transform.Translate(movement, Space.World); // transform method otherwise use one below for rigidbody method
-        rb.MovePosition(transform.position + movement); // rigidbody method for movement
+        transform.Translate(movement, Space.World); // transform method otherwise use one below for rigidbody method
+        //rb.MovePosition(transform.position + movement); // rigidbody method for movement
     }
 
 
