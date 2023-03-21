@@ -16,7 +16,7 @@ public class PlayerController2 : MonoBehaviour
     public float jumpTime;
     public float airTime = 0.5f;
     private Vector3 sizeCollider;
-    private bool didJump = false;
+    //private bool didJump = false;
     // Awake() is called before Start() method
     void Awake()
     {
@@ -63,7 +63,7 @@ public class PlayerController2 : MonoBehaviour
     {
         if (IsGrounded()) { //problem when jump is held, floaty, gravity force isn't applied until releasing jump
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-            didJump = true;
+            //didJump = true;
              }
             //rb.AddRelativeForce(Vector3.down * jumpForce*(float)context.duration, ForceMode.Impulse);
         /* if (rb.velocity.y < 0.0f)
